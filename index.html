@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap&subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>kyoyaOS</title>
+</head>
+
+<body>
+
+<div class="center">
+    <div class="login-wrapper">
+        <h1 class="os-title">｡✧:˚･｡ kyoyaOS - portfolio ｡･˚:✧｡</h1>
+
+        <div class="profile-photo"></div>
+
+        <div class="login-panel">
+            <h2>Logowanie</h2>
+
+            <input type="text" placeholder="Nazwa użytkownika">
+            <input type="password" placeholder="Hasło">
+
+            <p id="login-error" style="color: #ffb3b3; font-size: 14px; display: none;">
+    Nieprawidłowa nazwa użytkownika lub hasło
+</p>
+
+            <button>Zaloguj</button>
+        </div>
+    </div>
+</div>
+
+
+<script src="script.js" defer></script>
+</body>
+</html>
+<div class="loading-screen" id="loading">
+    <div class="spinner"></div>
+</div>
+
+
+<div class="main-screen" id="main" style="display: none;">
+    <h1> Witaj w kyoyaOS!</h1>
+</div>
